@@ -1,0 +1,7 @@
+name: respond-to-jargon-webhook
+on: [repository_dispatch]
+jobs:
+  smoke-screen:
+    runs-on: ubuntu-latest
+    steps:
+      - run: 'echo "Domain url: ${{ github.event.client_payload.release.url }}"'
