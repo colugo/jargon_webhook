@@ -1,0 +1,46 @@
+{
+  "event_type": "jargon_onRelease",
+  "client_payload": {
+    "action": {
+      "name": "onRelease",
+      "type": "release"
+    },
+    "domain": {
+      "account": "testAccount",
+      "name": "testDomain",
+      "url": "https://jargon.sh/user/jargon/WebSub"
+    },
+    "release": {
+      "version": "0.0.7",
+      "url": "https://jargon.sh/user/jargon/WebSub/v/0.0.7"
+    },
+    "artefacts": {
+      "dataModel": {
+        "url": "https://jargon.sh/user/jargon/WebSub/v/0.0.7/artefacts/diagram/render.svg?light=true",
+        "fileName": "testAccount_testDomain_dataModel.svg"
+      },
+      "jsonldVocab": {
+        "url": "https://jargon.sh/user/jargon/WebSub/v/0.0.7/artefacts/jsonld/render.jsonld?custom",
+        "fileName": "testAccount_testDomain_jsonld.json"
+      },
+      "openapiSpec": {
+        "url": "https://jargon.sh/user/jargon/WebSub/v/0.0.7/artefacts/openapi/render.json",
+        "fileName": "testAccount_testDomain_openapi.json"
+      },
+      "specificationPage": {
+        "url": "https://jargon.sh/user/jargon/WebSub/v/0.0.7/artefacts/specification/render.md",
+        "fileName": "testAccount_testDomain_specificationPage.md"
+      },
+      "lifeCycles": [
+        {
+          "url": "https://jargon.sh/user/jargon/WebSub/v/0.0.7/artefacts/statemachine/render.svg?class=t1&light=true",
+          "fileName": "testAccount_testDomain_t1_lifeCycle.svg"
+        },
+        {
+          "url": "https://jargon.sh/user/jargon/WebSub/v/0.0.7/artefacts/statemachine/render.svg?class=t2&light=true",
+          "fileName": "testAccount_testDomain_t2_lifeCycle.svg"
+        }
+      ]
+    }
+  }
+}
