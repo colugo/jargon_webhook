@@ -27,9 +27,9 @@
         "url": "https://jargon.sh/user/jargon/WebSub/v/0.0.7/artefacts/openapi/render.json",
         "fileName": "testAccount_testDomain_openapi.json"
       },
-      "specificationPage": {
-        "url": "https://jargon.sh/user/jargon/WebSub/v/0.0.7/artefacts/specification/render.md",
-        "fileName": "testAccount_testDomain_specificationPage.md"
+      "readme": {
+        "url": "https://jargon.sh/user/jargon/WebSub/v/0.0.7/artefacts/readme/render.md",
+        "fileName": "testAccount_testDomain_readme.md"
       },
       "lifeCycles": [
         {
